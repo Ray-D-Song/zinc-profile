@@ -297,36 +297,41 @@ function generateSVG(stats: GitHubStats, username: string): string {
 	<defs>
 		<style>
 			.container {
-				font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+				font-family: 'Courier New', monospace;
 				font-size: 12px;
 				fill: #e6e6e6;
 				shape-rendering: crispEdges;
 				text-rendering: optimizeLegibility;
 			}
 			.title {
+				font-family: 'Courier New', monospace;
 				font-size: 16px;
 				font-weight: bold;
 				fill: #ffffff;
 				text-rendering: optimizeLegibility;
 			}
 			.username {
+				font-family: 'Courier New', monospace;
 				font-size: 14px;
 				fill: #cccccc;
 				text-rendering: optimizeLegibility;
 			}
 			.section-title {
+				font-family: 'Courier New', monospace;
 				font-size: 13px;
 				font-weight: bold;
 				fill: #ffffff;
 				text-rendering: optimizeLegibility;
 			}
 			.value {
+				font-family: 'Courier New', monospace;
 				font-size: 14px;
 				font-weight: bold;
 				fill: #ffffff;
 				text-rendering: optimizeLegibility;
 			}
 			.percentage {
+				font-family: 'Courier New', monospace;
 				font-size: 11px;
 				fill: #cccccc;
 				text-rendering: optimizeLegibility;
@@ -351,6 +356,7 @@ function generateSVG(stats: GitHubStats, username: string): string {
 				shape-rendering: optimizeQuality;
 			}
 			.update-time {
+				font-family: 'Courier New', monospace;
 				font-size: 10px;
 				fill: #666666;
 				text-rendering: optimizeLegibility;
