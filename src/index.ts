@@ -15,6 +15,26 @@ import phpIcon from '@iconify/icons-vscode-icons/file-type-php3';
 import rubyIcon from '@iconify/icons-vscode-icons/file-type-ruby';
 import swiftIcon from '@iconify/icons-vscode-icons/file-type-swift';
 import kotlinIcon from '@iconify/icons-vscode-icons/file-type-kotlin';
+import csharpIcon from '@iconify/icons-vscode-icons/file-type-csharp2';
+import dartIcon from '@iconify/icons-vscode-icons/file-type-dartlang';
+import scalaIcon from '@iconify/icons-vscode-icons/file-type-scala';
+import perlIcon from '@iconify/icons-vscode-icons/file-type-perl2';
+import shellIcon from '@iconify/icons-vscode-icons/file-type-shell';
+import dockerIcon from '@iconify/icons-vscode-icons/file-type-docker2';
+import luaIcon from '@iconify/icons-vscode-icons/file-type-lua';
+import rIcon from '@iconify/icons-vscode-icons/file-type-r';
+import matlabIcon from '@iconify/icons-vscode-icons/file-type-matlab';
+import haskellIcon from '@iconify/icons-vscode-icons/file-type-haskell2';
+import elixirIcon from '@iconify/icons-vscode-icons/file-type-elixir';
+import erlangIcon from '@iconify/icons-vscode-icons/file-type-erlang';
+import clojureIcon from '@iconify/icons-vscode-icons/file-type-clojure';
+import objectivecIcon from '@iconify/icons-vscode-icons/file-type-objectivec';
+import sassIcon from '@iconify/icons-vscode-icons/file-type-sass';
+import lessIcon from '@iconify/icons-vscode-icons/file-type-less';
+import jsonIcon from '@iconify/icons-vscode-icons/file-type-json';
+import xmlIcon from '@iconify/icons-vscode-icons/file-type-xml';
+import yamlIcon from '@iconify/icons-vscode-icons/file-type-yaml';
+import markdownIcon from '@iconify/icons-vscode-icons/file-type-markdown';
 import folderOpenedIcon from '@iconify/icons-vscode-icons/default-folder-opened';
 import gitIcon from '@iconify/icons-vscode-icons/file-type-git';
 
@@ -209,6 +229,27 @@ function generateSVG(stats: GitHubStats, username: string): string {
 		'Ruby': rubyIcon,
 		'Swift': swiftIcon,
 		'Kotlin': kotlinIcon,
+		'C#': csharpIcon,
+		'Dart': dartIcon,
+		'Scala': scalaIcon,
+		'Perl': perlIcon,
+		'Shell': shellIcon,
+		'Dockerfile': dockerIcon,
+		'Lua': luaIcon,
+		'R': rIcon,
+		'MATLAB': matlabIcon,
+		'Haskell': haskellIcon,
+		'Elixir': elixirIcon,
+		'Erlang': erlangIcon,
+		'Clojure': clojureIcon,
+		'Objective-C': objectivecIcon,
+		'SCSS': sassIcon,
+		'Sass': sassIcon,
+		'Less': lessIcon,
+		'JSON': jsonIcon,
+		'XML': xmlIcon,
+		'YAML': yamlIcon,
+		'Markdown': markdownIcon,
 	};
 	
 	// Get language icon SVG path

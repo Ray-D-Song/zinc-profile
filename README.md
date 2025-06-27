@@ -2,6 +2,8 @@
 
 A beautiful GitHub profile widget based on Cloudflare Worker, displaying your GitHub statistics with a black and white color scheme and TUI-like effect.
 
+![GitHub Stats](https://zinc-profile.songraysmail.workers.dev/?user=ray-d-song) 
+
 ## Features
 
 - 🎨 **Black & White Color Scheme + TUI-like Effect** - Clean and aesthetic terminal-style interface
