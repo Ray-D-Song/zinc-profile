@@ -39,7 +39,7 @@ pnpm dev
 ### 4. Deploy to Cloudflare
 
 ```bash
-pnpm deploy
+npx wrangler deploy
 ```
 
 ## Usage
